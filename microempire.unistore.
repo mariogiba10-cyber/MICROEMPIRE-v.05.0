@@ -1,0 +1,46 @@
+{
+  "storeInfo": {
+    "title": "MICROEMPIRE Store",
+    "author": "mariogiba10-cyber",
+    "description": "Tienda oficial del proyecto MICROEMPIRE",
+    "file": "microempire.unistore",
+    "url": "https://raw.githubusercontent.com/mariogiba10-cyber/MICROEMPIRE-v.05.0/main/microempire.unistore",
+    "version": 3,
+    "revision": 1
+  },
+  "storeContent": [
+    {
+      "info": {
+        "title": "MICROEMPIRE",
+        "author": "mariogiba10-cyber",
+        "description": "Juego para Nintendo DS",
+        "category": ["game"],
+        "console": ["DS"],
+        "version": "0.5.0",
+        "last_updated": "2026-10-09"
+      },
+      "Descargar MICROEMPIRE.nds": [
+        {
+          "type": "downloadFile",
+          "file": "URL_DIRECTA_DEL_NDS",
+          "output": "sdmc:/MICROEMPIRE.nds"
+        }
+      ],
+      "Instalar MICROEMPIRE.cia": [
+        {
+          "type": "downloadFile",
+          "file": "URL_DIRECTA_DEL_CIA",
+          "output": "sdmc:/MICROEMPIRE.cia"
+        },
+        {
+          "type": "installCia",
+          "file": "/MICROEMPIRE.cia"
+        },
+        {
+          "type": "deleteFile",
+          "file": "sdmc:/MICROEMPIRE.cia"
+        }
+      ]
+    }
+  ]
+}
