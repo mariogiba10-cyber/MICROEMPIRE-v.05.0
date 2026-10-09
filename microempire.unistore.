@@ -22,7 +22,7 @@
       "Descargar MICROEMPIRE.nds": [
         {
           "type": "downloadFile",
-          "file": "URL_DIRECTA_DEL_NDS",
+          "file": "https://github.com/mariogiba10-cyber/MICROEMPIRE-v.05.0/releases/download/oficial/MICROEMPIRE.4.nds",
           "output": "sdmc:/MICROEMPIRE.nds"
         }
       ],
