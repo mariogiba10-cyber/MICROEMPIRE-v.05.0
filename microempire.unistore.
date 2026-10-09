@@ -29,7 +29,7 @@
       "Instalar MICROEMPIRE.cia": [
         {
           "type": "downloadFile",
-          "file": "URL_DIRECTA_DEL_CIA",
+          "file": "https://github.com/mariogiba10-cyber/MICROEMPIRE-v.05.0/releases/download/oficial/MICROEMPIRE.cia",
           "output": "sdmc:/MICROEMPIRE.cia"
         },
         {
